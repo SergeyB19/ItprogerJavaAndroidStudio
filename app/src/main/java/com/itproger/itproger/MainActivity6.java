@@ -1,5 +1,6 @@
 package com.itproger.itproger;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -75,5 +76,10 @@ public class MainActivity6 extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void goHome(View view) {
+        Intent intent = new Intent(this, MainActivity6.class);
+        startActivity(intent);
     }
 }
