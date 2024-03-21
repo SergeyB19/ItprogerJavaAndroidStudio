@@ -18,6 +18,8 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/purple_700"
         android:text="Удалить"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
         android:layout_alignParentEnd="true"
         />
 
